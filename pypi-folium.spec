@@ -4,7 +4,7 @@
 #
 Name     : pypi-folium
 Version  : 0.14.0
-Release  : 1
+Release  : 2
 URL      : https://files.pythonhosted.org/packages/bb/d0/2d8d1a500d829caa0e6b394ee933344f7fee81cb685409e5aaf5c9492f64/folium-0.14.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/bb/d0/2d8d1a500d829caa0e6b394ee933344f7fee81cb685409e5aaf5c9492f64/folium-0.14.0.tar.gz
 Summary  : Make beautiful maps with Leaflet.js & Python
@@ -74,7 +74,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1672338797
+export SOURCE_DATE_EPOCH=1672423120
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
