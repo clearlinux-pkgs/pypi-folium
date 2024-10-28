@@ -7,7 +7,7 @@
 #
 Name     : pypi-folium
 Version  : 0.18.0
-Release  : 11
+Release  : 12
 URL      : https://files.pythonhosted.org/packages/d8/75/4ffc50fac2a881f07c48232d6200d50ca040a83e2e0e96f523610eec27a7/folium-0.18.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/d8/75/4ffc50fac2a881f07c48232d6200d50ca040a83e2e0e96f523610eec27a7/folium-0.18.0.tar.gz
 Summary  : Make beautiful maps with Leaflet.js & Python
