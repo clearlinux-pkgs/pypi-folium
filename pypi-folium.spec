@@ -6,10 +6,10 @@
 # autospec commit: 5424026
 #
 Name     : pypi-folium
-Version  : 0.19.2
-Release  : 13
-URL      : https://files.pythonhosted.org/packages/6e/ec/4556a2b452ada91ac9348b19152739af21e683c583720397a812f8097d82/folium-0.19.2.tar.gz
-Source0  : https://files.pythonhosted.org/packages/6e/ec/4556a2b452ada91ac9348b19152739af21e683c583720397a812f8097d82/folium-0.19.2.tar.gz
+Version  : 0.19.3
+Release  : 14
+URL      : https://files.pythonhosted.org/packages/a0/ed/d508f9363e1649edb8720e27e8625398af808c15c356ec20076af3badb70/folium-0.19.3.tar.gz
+Source0  : https://files.pythonhosted.org/packages/a0/ed/d508f9363e1649edb8720e27e8625398af808c15c356ec20076af3badb70/folium-0.19.3.tar.gz
 Summary  : Make beautiful maps with Leaflet.js & Python
 Group    : Development/Tools
 License  : MIT
@@ -68,10 +68,10 @@ python3 components for the pypi-folium package.
 
 
 %prep
-%setup -q -n folium-0.19.2
-cd %{_builddir}/folium-0.19.2
+%setup -q -n folium-0.19.3
+cd %{_builddir}/folium-0.19.3
 pushd ..
-cp -a folium-0.19.2 buildavx2
+cp -a folium-0.19.3 buildavx2
 popd
 
 %build
@@ -79,7 +79,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1735095576
+export SOURCE_DATE_EPOCH=1735573853
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
