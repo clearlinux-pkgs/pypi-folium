@@ -1,5 +1,5 @@
 PKG_NAME := pypi-folium
-URL = https://files.pythonhosted.org/packages/ca/09/469cbe217cddc0cb11542fa38f50014e548b2dda010f67185b0579885cd6/folium-0.19.4.tar.gz
+URL = https://files.pythonhosted.org/packages/0b/4e/f5ef1fcacaa669465cc2ee0c71718f2093e89ec4086125fc5f3d335ed62f/folium-0.19.5.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
